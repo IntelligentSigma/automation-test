@@ -1,0 +1,54 @@
+{
+  "default":{
+    "app" : "",
+    "baseHost" : "google.com",
+    "browsers" : "chrome",
+    "devKey" : "UlNWNy1IMzM2LVZEWVotTUgzTS00WDczLTFNUkstOU44Ny1ERE1Q",
+    "displayInfo" : false,
+    "environment":"[{\"name\":\"Automation Test\", \"browserName\":\"chrome\"}]",
+    "explicitLogin" : false,
+    "failFast" : true,
+    "framework" : "mocha",
+    "globalTimeout" : 90000,
+    "mochaOpts" : {
+      "slow" : 10000
+    },
+    "retries": 3,
+    "runInParallel" : true,
+    "_suiteComment": "All Suites on Sauce.",
+    "suites" : {
+      "home" : ["tests/*.js"]
+    },
+    "waitTimeout" : 20000
+  },
+
+  "inDevelopment": {
+    "_suiteComment": "Used for debugging individual or groups of tests",
+    "retries": 0,
+    "suites" : {
+      "all" : ["tests/*spec.js"]
+    }
+  },
+
+  "sauce":{
+    "location" : "SAUCE",
+    "sauceKey":"OTk3ODNlMzctZDIwZC00M2NjLThhYzctNDc4ZTBlZmU2YTll",
+    "sauceUser":"YWRhbXN2cg=="
+  },
+
+  "local":{
+    "baseHost" : "localhost:5000"
+  },
+
+  "synchronous" : {
+    "runInParallel" : false
+  },
+
+  "proxy" : {
+    "proxyUrl" : ""
+  },
+
+  "explicitLogin" : {
+    "explicitLogin" : true
+  }
+}

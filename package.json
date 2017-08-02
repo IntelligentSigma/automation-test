@@ -1,0 +1,38 @@
+{
+  "name": "automation-test",
+  "version": "1.0.0",
+  "private": false,
+  "author": {
+    "name": "Various",
+    "url": ""
+  },
+  "contributors": [
+    "Dave Mamanakis <dave.mamanakis@gmail.com>"
+  ],
+  "license": "CC-BY-SA-4.0",
+  "description": "Automation-Test stand-alone",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IntelligentSigma/automation-test.git"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "async": "^2.1.4",
+    "chai": "~3.5.0",
+    "chai-as-promised": "~6.0.0",
+    "jasmine-reporters": "^2.2.0",
+    "jasmine-spec-reporter": "^3.2.0",
+    "mocha": "^3.2.0",
+    "nopt": "^4.0.1",
+    "promise": "^7.1.1",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "q": "^1.4.1",
+    "automation-base": "git+https://github.com/IntelligentSigma/automation-base.git",
+    "automation-google": "git+http://github.com/IntelligentSigma/automation-google.git"
+  },
+  "engines": {
+    "node": "6.10.0"
+  }
+}
