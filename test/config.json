@@ -32,8 +32,8 @@
 
   "sauce":{
     "location" : "SAUCE",
-    "sauceKey":"OTk3ODNlMzctZDIwZC00M2NjLThhYzctNDc4ZTBlZmU2YTll",
-    "sauceUser":"YWRhbXN2cg=="
+    "sauceKey":"",
+    "sauceUser":""
   },
 
   "local":{
