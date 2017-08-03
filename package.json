@@ -1,6 +1,6 @@
 {
   "name": "automation-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "author": {
     "name": "Various",
@@ -30,6 +30,7 @@
     "protractor-jasmine2-html-reporter": "0.0.7",
     "q": "^1.4.1",
     "automation-base": "git+https://github.com/IntelligentSigma/automation-base.git",
+    "automation-base-utils": "git+https://github.com/IntelligentSigma/automation-base-utils.git",
     "automation-google": "git+http://github.com/IntelligentSigma/automation-google.git"
   },
   "engines": {
