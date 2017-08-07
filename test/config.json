@@ -3,7 +3,6 @@
     "app" : "",
     "baseHost" : "google.com",
     "browsers" : "chrome",
-    "devKey" : "UlNWNy1IMzM2LVZEWVotTUgzTS00WDczLTFNUkstOU44Ny1ERE1Q",
     "displayInfo" : false,
     "environment":"[{\"name\":\"Automation Test\", \"browserName\":\"chrome\"}]",
     "explicitLogin" : false,
